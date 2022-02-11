@@ -25,7 +25,7 @@ function parseShowInterfaces(stdout) {
       'reception',
       'transmission',
       'signal',
-      'profil'
+      'profile'
     ];
     for (let j = 0; j < fields.length; j++) {
       const line = lines[i + j];
